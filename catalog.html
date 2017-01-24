@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Барбершоп</title>
+  </head>
+<body>
+  <header class="main-header">
+		<div class="container">
+			<div class="nav-logo">
+				<img src="#" width="110" height="25" alt="Барбершоп «Бородинский»">
+			</div>
+			<nav class="main-navigation">
+				<ul>
+					<li>
+						<a href="#">Информация</a>
+					</li>
+					<li>
+						<a href="#">Новости</a>
+					</li>
+					<li>
+						<a href="#">Прайс-лист</a>
+					</li>
+					<li>
+						<a href="#">Магазин</a>
+					</li>
+					<li>
+						<a href="#">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+			<div class="user-block">
+				<a class="login" href="#">Вход</a> <!-- можно ли тут сделать просто <a> без класса, а в CSS прописать .user-block a? -->
+			</div>
+		</div>
+  </header>
+	<main class="container">
+		<div class="breadcrumbs-container">	
+			<h1>Средства для ухода»</h1>
+			<ul class="breadcrumbs">
+				<li><a href="#">Главная</a></li>
+				<li><a href="#">Магазин</a></li>
+				<li>Средства для ухода</li>
+			</ul>
+		</div>
+		<aside class="catalog-filter">
+			<form action="https://echo.htmlacademy.ru" method="get">
+				<fieldset>
+						<legend>Производители:</legend>
+						<label><input type="checkbox" name="Baxter-of-California" checked >Baxter of California</label>
+						<label><input type="checkbox" name="Mr-Natty">Mr Natty</label>
+						<label><input type="checkbox" name="Suavecito" checked>Suavecito</label>
+						<label><input type="checkbox" name="Malin+Goetz"  >Malin+Goetz</label>
+						<label><input type="checkbox" name="Murrays">Murray's</label>
+						<label><input type="checkbox" name="American-Crew" checked>American Crew</label>
+					</fieldset>
+					<fieldset>
+						<legend>Группы товаров:</legend>
+						<label><input type="radio" name="Shaving-accessories" checked >Бритвенные принадлежности</label>
+						<label><input type="radio" name="Care-funds" checked>Средства для ухода</label>
+						<label><input type="radio" name="Accessories">Аксессуары</label>
+					</fieldset>
+					<input type="submit" value="Показать">
+			</form>
+		</aside>
+		<section class="catalog">
+			<article class="catalog-item">
+				<figure class="catalog-item-image"><img src="#"></figure>
+				<h3 class="catalog-item-title">Набор для путешествий "Baxter of California"</h3>
+			<span>2 900 руб.</span>
+			<a class="btn" href="#">Купить</a>
+			</article>
+			<article class="catalog-item">
+				<figure class="catalog-item-image"><img src="#"></figure>
+				<h3 class="catalog-item-title">Увлажняющий кондиционер "Baxter of California"</h3>
+			<span>750 руб.</span>
+			<a class="btn" href="#">Купить</a>
+			</article>
+			<article class="catalog-item">
+				<figure class="catalog-item-image"><img src="#"></figure>
+				<h3 class="catalog-item-title">Гель для волос "Suavecito"</h3>
+			<span>290 руб.</span>
+			<a class="btn" href="#">Купить</a>
+			</article>
+			<article class="catalog-item">
+				<figure class="catalog-item-image"><img src="#"></figure>
+				<h3 class="catalog-item-title">Глина для укладки волос "American Crew"</h3>
+			<span>500 руб.</span>
+			<a class="btn" href="#">Купить</a>
+			</article>
+			<article class="catalog-item">
+				<figure class="catalog-item-image"><img src="#"></figure>
+				<h3 class="catalog-item-title">Гель для волос "American Crew"</h3>
+			<span>300 руб.</span>
+			<a class="btn" href="#">Купить</a>
+			</article>
+			<article class="catalog-item">
+				<figure class="catalog-item-image"><img src="#"></figure>
+				<h3 class="catalog-item-title">Набор для бритья "Baxter of California"</h3>
+			<span>3 900 руб.</span>
+			<a class="btn" href="#">Купить</a>
+			</article>			
+		</section>
+		<div class="pagination">
+		<ul class="pagination-links">
+			<li><a href="#">1</a></li>
+			<li class="active">2</a></li>
+			<li><a href="#">3</li>
+			<li><a href="#">4</a></li>
+		</ul>
+		</div>
+		<footer class="main-footer">
+			<div class="container">
+				<section class="footer-contacts">
+				  Барбершоп «Бородинский»<br>
+          Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+          <a href="#">Как нас найти?</a><br>
+          Телефон: +7 (812) 666-02-66
+				</section>
+				<section class="footer-social">
+				  <p>Давайте дружить!</p>
+          <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+          <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+          <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+				</section>
+				<section class="footer-copyright">
+				  <p>Разработано:</p>
+          <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+				</section>				
+			</div>
+		</footer>
+	</main>
+</body>
+</html>
